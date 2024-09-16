@@ -1,0 +1,134 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.container {
+     display: flex;
+     
+}
+
+.left-section {
+     height: 100vh;
+     background: url("https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+     background-size: 100vh;
+     width: 33%;
+}
+
+.logo-container {
+     margin-top: 20vh;
+
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+     padding: 16px 80px;
+     background: rgba(0, 0, 0, 0.4);
+}
+
+.logo-container img {
+     width: 80px;
+     aspect-ratio: 0.75;
+}
+
+.logo-text {
+     color: white;
+     font-size: 48px;
+}
+
+.right-section {
+     display: flex;
+     flex-direction: column;
+     flex-grow: 1;
+}
+
+.top {
+     font-weight: 600;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+     padding-top: 15vh;
+     padding-left: 40px;
+     padding-bottom: 10vh;
+     background-color: #F9FAFB;
+}
+
+form ul {
+     padding: 16px 40px;
+     text-decoration: none;
+     list-style: none;   
+     box-shadow: 0px 5px 5px #ededed;
+}
+
+form ul:first-child {
+     font-weight: 600;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+}
+
+form li {
+     display: flex;
+     margin-top: 16px;
+     gap: 60px;
+}
+
+form li:first-child {
+     margin-top: 0;
+}
+
+form ul div {
+     display: flex;
+     flex-direction: column;
+
+     width: 250px;
+     gap: 4px;
+}
+
+label {
+     font-size: 10px;
+     letter-spacing: 1px;
+     color: gray;
+     text-transform: uppercase;
+     
+}
+
+input {
+     border: 1px solid #E5E7EB;
+     border-radius: 4px;
+     height: 30px;
+     padding-left: 8px;
+     padding-right: 8px;
+}
+
+#password:invalid,
+#confirmpassword:invalid {
+     border: 1px solid red;
+}
+
+.footer {
+     display: inline-flex;
+     flex-direction: column;
+     gap: 24px;
+     margin-top: 24px;
+     margin-left: 40px;
+}
+
+button {
+     padding: 12px 40px;
+     width: 200px;
+     font-weight: 600;
+     color: white;
+     background-color: #596C48;
+     border: none;
+     border-radius: 8px;
+}
+
+.footer p {
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     font-size: 14px;
+}
+
+a {
+     text-decoration: none;
+     color: #596C48;
+     font-weight: bold;
+}
